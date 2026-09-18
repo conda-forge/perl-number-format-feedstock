@@ -1,10 +1,10 @@
 {% set cpan_name = "Number-Format" %}
-{% set version = "1.76" %}
-{% set sha256 = "0e0060eb363635a885706c6a26f5fcaafeae759f7b2acae49dda70e195dd44d6" %}
+{% set version = "1.78" %}
+{% set sha256 = "006090af88265924dbadda9d7d95058b897a0b9b3b984f69287ed0df9ae021a9" %}
 
 package:
   name: perl-{{ cpan_name|lower }}
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   url: https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Number-Format-{{ version }}.tar.gz
@@ -40,3 +40,4 @@ about:
 extra:
   recipe-maintainers:
     - jvolkening
+    - conda-forge/perl-packagers
