@@ -1,6 +1,6 @@
 {% set cpan_name = "Number-Format" %}
-{% set version = "1.78" %}
-{% set sha256 = "006090af88265924dbadda9d7d95058b897a0b9b3b984f69287ed0df9ae021a9" %}
+{% set version = "1.79" %}
+{% set sha256 = "404b231709b28a41024ae76bedd349145da7e535f94c6013b6bb55eea383e1ad" %}
 
 package:
   name: perl-{{ cpan_name|lower }}
